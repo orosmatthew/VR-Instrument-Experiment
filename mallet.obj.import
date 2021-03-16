@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/mallet.obj-7f63413037a60c54de1d4618c84ca5ac.mesh"
+
+[deps]
+
+files=[ "res://.import/mallet.obj-7f63413037a60c54de1d4618c84ca5ac.mesh" ]
+
+source_file="res://mallet.obj"
+dest_files=[ "res://.import/mallet.obj-7f63413037a60c54de1d4618c84ca5ac.mesh", "res://.import/mallet.obj-7f63413037a60c54de1d4618c84ca5ac.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

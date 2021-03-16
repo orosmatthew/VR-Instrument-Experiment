@@ -1,11 +1,11 @@
-#N canvas -1062 121 1020 732 10;
+#N canvas 567 160 639 753 10;
 #X obj 164 365 dac~;
 #X obj 174 309 *~;
-#X floatatom 230 270 5 0 0 0 - - -, f 5;
+#X floatatom 230 260 5 0 1 0 - - -, f 5;
 #X floatatom 40 80 5 0 0 0 - - -, f 5;
-#N canvas 752 235 450 392 osc_handler 0;
+#N canvas 736 263 450 417 osc_handler 1;
 #X obj 83 -171 unpackOSC;
-#X obj 72 -259 import mrpeach;
+#X obj 20 -240 import mrpeach;
 #X obj 82 -219 udpreceive 9001;
 #X obj 93 -125 routeOSC /play;
 #X obj 90 -90 routeOSC /voice /volume;

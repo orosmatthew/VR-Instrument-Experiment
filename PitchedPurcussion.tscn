@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://PitchedPurcussion.gd" type="Script" id=1]
+[ext_resource path="res://Note.tscn" type="PackedScene" id=2]
+
+[node name="PitchedPurcussion" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="C4" parent="." instance=ExtResource( 2 )]
+transform = Transform( -0.906308, 0.422618, -3.25841e-07, 0.422618, 0.906308, 0, 2.95313e-07, -1.37707e-07, -1, 0.64, 5.75421, 6.74738 )
+
+[node name="D4" parent="." instance=ExtResource( 2 )]
+transform = Transform( -0.906308, 0.422618, -3.25841e-07, 0.422618, 0.906308, 0, 2.95313e-07, -1.37707e-07, -1, 0.64, 5.75421, 5.24738 )
+note = 62
+
+[node name="E4" parent="." instance=ExtResource( 2 )]
+transform = Transform( -0.906308, 0.422618, -3.25841e-07, 0.422618, 0.906308, 0, 2.95313e-07, -1.37707e-07, -1, 0.64, 5.75421, 3.74738 )
+note = 64
+
+[node name="F4" parent="." instance=ExtResource( 2 )]
+transform = Transform( -0.906308, 0.422618, -3.25841e-07, 0.422618, 0.906308, 0, 2.95313e-07, -1.37707e-07, -1, 0.64, 5.75421, 2.24738 )
+note = 65
+
+[node name="G4" parent="." instance=ExtResource( 2 )]
+transform = Transform( -0.906308, 0.422618, -3.25841e-07, 0.422618, 0.906308, 0, 2.95313e-07, -1.37707e-07, -1, 0.64, 5.75421, 0.747381 )
+note = 67
+
+[node name="A4" parent="." instance=ExtResource( 2 )]
+transform = Transform( -0.906308, 0.422618, -3.25841e-07, 0.422618, 0.906308, 0, 2.95313e-07, -1.37707e-07, -1, 0.64, 5.75421, -0.752619 )
+note = 69
+
+[node name="B4" parent="." instance=ExtResource( 2 )]
+transform = Transform( -0.906308, 0.422618, -3.25841e-07, 0.422618, 0.906308, 0, 2.95313e-07, -1.37707e-07, -1, 0.64, 5.75421, -2.25262 )
+note = 71
+
+[node name="C5" parent="." instance=ExtResource( 2 )]
+transform = Transform( -0.906308, 0.422618, -3.25841e-07, 0.422618, 0.906308, 0, 2.95313e-07, -1.37707e-07, -1, 0.64, 5.75421, -3.75262 )
+note = 72
