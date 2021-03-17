@@ -11,7 +11,7 @@ func _on_Area_area_shape_entered(area_id, area, area_shape, self_shape):
 	osc_sender.msg("/play/volume")
 	osc_sender.add(clamp(area.get_parent().get_parent().get("speed"), 0, 5) / 10.0)
 	osc_sender.send()
-	osc_sender.msg("/play/voice")
+	osc_sender.msg("/play/midi")
 	osc_sender.add(note)
 	osc_sender.send()
 	

@@ -9,7 +9,7 @@ func _ready():
 	osc_sender.msg("/play/volume")
 	osc_sender.add(0.25)
 	osc_sender.send()
-	osc_sender.msg("/play/voice")
+	osc_sender.msg("/play/midi")
 	osc_sender.add(60)
 	osc_sender.send()
 
